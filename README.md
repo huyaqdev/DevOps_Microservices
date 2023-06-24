@@ -1,9 +1,6 @@
-# DevOps_Microservices
-
 ## Project Overview
 
-In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. Project using a pre-trained model that could predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on. 
-
+In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. Project using a pre-trained model that could predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on.
 
 ### Project Tasks
 
