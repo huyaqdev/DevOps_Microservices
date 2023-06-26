@@ -6,7 +6,7 @@ In this project, you will apply the skills you have acquired in this course to o
 
 ### Project Tasks
 
-* Test project code using linting: hadolint
+* Test your project code using linting: hadolint
 * Complete a Dockerfile to containerize this application
 * Deploy containerized application using Docker and make a prediction
 * Improve the log statements in the source code
@@ -17,6 +17,10 @@ In this project, you will apply the skills you have acquired in this course to o
 ---
 
 ### Run project
+* Start Docker
+`./run_docker.sh`
+* upload image to docker hub
+`./upload_docker.sh`
 * Start minikube
 `minikube start`
 * Forward in kubernetes
@@ -26,13 +30,14 @@ In this project, you will apply the skills you have acquired in this course to o
 * Delete minikube cluster
 `minikube delete`
 
-### Files explanation
+### Files submit
+* README.md
 * app.py: use to serve house prediction through api
 * docker_out.txt: the output of server (log)
 * kubernetes_out.txt: the prediction result when run kubernetes
 * Dockerfile: setup build image
-* Makefile: env setup and lint test
-* run_docker.sh: run docker local
+* Makefile: env setup and lint test application
+* run_docker.sh: run docker local and output of server (log)
 * make_prediction.sh: send input payload to get prediction
 * upload_docker.sh: upload image to docker hub
 * run_kubernetes.sh: run application in kubernetes
