@@ -1,1 +1,20 @@
 Repo project: https://github.com/huyaqdev/DevOps_Microservices
+
+Run project: 
+Start Docker ./run_docker.sh
+upload image to docker hub ./upload_docker.sh
+Start minikube minikube start
+Forward in kubernetes ./run_kubernetes.sh
+Input payload to get prediction ./make_prediction.sh
+
+Files submit:
+README.md
+app.py: use to serve house prediction through api
+docker_out.txt: the output of server (log)
+kubernetes_out.txt: the prediction result when run kubernetes
+Dockerfile: setup build image
+Makefile: env setup and lint test application
+run_docker.sh: run docker local and output of server (log)
+make_prediction.sh: send input payload to get prediction
+upload_docker.sh: upload image to docker hub
+run_kubernetes.sh: run application in kubernetes
