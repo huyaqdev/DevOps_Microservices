@@ -6,14 +6,14 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath=tonytmdprefinal
+dockerpath=huyaqfinal
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
-docker login -u dockertonymd
-docker tag tonytmdprefinal dockertonymd/dockerprojfinal:tonytmdprefinal .
+docker login -u huyaqdev
+docker tag huyaqfinal huyaqdev/devops_microservices:huyaqfinal .
 
 # Step 3:
 # Push image to a docker repository
-docker push dockertonymd/dockerprojfinal:tonytmdprefinal
+docker push huyaqdev/devops_microservices:huyaqfinal

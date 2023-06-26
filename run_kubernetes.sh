@@ -5,11 +5,11 @@
 # Step 1:
 # This is your Docker ID/path
 # dockerpath=<>
-dockerpath=tonytmdprefinal
+dockerpath=huyaqfinal
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run $dockerpath --image=dockertonymd/dockerprojfinal:tonytmdprefinal --port=80
+kubectl run $dockerpath --image=huyaqdev/devops_microservices:huyaqfinal --port=80
 
 # Step 3:
 # List kubernetes pods
@@ -17,5 +17,5 @@ kubectl get pod
 
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward pod/tonytmdprefinal 8000:80
+kubectl port-forward pod/huyaqfinal 8000:80
 
